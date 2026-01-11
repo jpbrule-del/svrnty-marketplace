@@ -16,8 +16,7 @@
         "name": "Svrnty",
         "email": "contact@svrnty.com"
       },
-      "source": "https://github.com/jpbrule-del/bmad-ralph-plugin",
-      "repository": "https://github.com/jpbrule-del/bmad-ralph-plugin"
+      "source": "jpbrule-del/bmad-ralph-plugin"
     }
   ]
 }
