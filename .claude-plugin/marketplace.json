@@ -13,8 +13,8 @@
     {
       "name": "bmad-ralph",
       "source": {
-        "source": "github",
-        "repo": "jpbrule-del/bmad-ralph-plugin"
+        "source": "git",
+        "url": "https://github.com/jpbrule-del/bmad-ralph-plugin.git"
       },
       "description": "Autonomous development loop automation using the BMAD Method",
       "version": "1.0.0",
