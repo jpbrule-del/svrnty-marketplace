@@ -1,24 +1,26 @@
 {
   "name": "svrnty-marketplace",
-  "version": "1.0.0",
-  "description": "Official plugin marketplace for Claude Code plugins from Svrnty",
   "owner": {
     "name": "Svrnty",
     "email": "contact@svrnty.com",
     "url": "https://github.com/jpbrule-del"
   },
+  "metadata": {
+    "description": "Official plugin marketplace for Claude Code plugins from Svrnty",
+    "version": "1.0.0"
+  },
   "plugins": [
     {
       "name": "bmad-ralph",
+      "source": {
+        "source": "github",
+        "repo": "jpbrule-del/bmad-ralph-plugin"
+      },
+      "description": "Autonomous development loop automation using the BMAD Method",
       "version": "1.0.0",
-      "description": "Autonomous development loop automation using the BMAD Method for executing sprints with quality gates, git workflow, and feedback tracking",
       "author": {
         "name": "Svrnty",
         "email": "contact@svrnty.com"
-      },
-      "source": {
-        "type": "git",
-        "url": "https://github.com/jpbrule-del/bmad-ralph-plugin.git"
       }
     }
   ]
