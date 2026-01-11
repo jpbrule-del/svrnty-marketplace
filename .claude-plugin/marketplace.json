@@ -17,8 +17,8 @@
         "email": "contact@svrnty.com"
       },
       "source": {
-        "type": "github",
-        "repo": "jpbrule-del/bmad-ralph-plugin"
+        "type": "git",
+        "url": "https://github.com/jpbrule-del/bmad-ralph-plugin.git"
       }
     }
   ]
