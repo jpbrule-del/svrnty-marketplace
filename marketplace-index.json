@@ -44,7 +44,7 @@
       "author": "Jean-Philippe Brulé",
       "repository": "https://github.com/jpbrule-del/svrnty-team-setup",
       "marketplace_entry": "./plugins/svrnty/metadata.json",
-      "version": "1.0.0",
+      "version": "2.0.0",
       "min_claude_code_version": "1.0.0",
       "description": "Multi-agent orchestration via Overstory + Beads task tracking + Mulch knowledge persistence",
       "categories": [
@@ -67,7 +67,7 @@
       "downloads": 0,
       "rating": 0.0,
       "added_at": "2026-02-18T00:00:00Z",
-      "updated_at": "2026-02-18T00:00:00Z"
+      "updated_at": "2026-02-19T00:00:00Z"
     }
   ],
   "categories": {
@@ -110,7 +110,7 @@
   "metadata": {
     "total_plugins": 2,
     "total_downloads": 0,
-    "last_updated": "2026-02-18T00:00:00Z",
+    "last_updated": "2026-02-19T00:00:00Z",
     "index_version": "1.0.0"
   }
 }

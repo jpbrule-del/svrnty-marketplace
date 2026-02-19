@@ -3,7 +3,7 @@
   "id": "svrnty",
   "name": "Svrnty Team Setup",
   "slug": "svrnty",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Multi-agent orchestration via Overstory + Beads task tracking + Mulch knowledge persistence",
   "long_description": "Svrnty Team Setup converts Claude Code into a multi-agent orchestration platform. It uses Overstory for agent spawning into isolated git worktrees, Beads for git-backed issue/task tracking, and Mulch for structured knowledge persistence across sessions. Native Claude Code Task and TeamCreate tools are blocked by hooks — all agent work flows through Overstory for proper worktree isolation and dashboard visibility.",
   "author": {
@@ -132,5 +132,5 @@
   "verified": true,
   "featured": true,
   "added_at": "2026-02-18T00:00:00Z",
-  "updated_at": "2026-02-18T00:00:00Z"
+  "updated_at": "2026-02-19T00:00:00Z"
 }
