@@ -1,0 +1,136 @@
+{
+  "$schema": "../../schemas/plugin-entry.schema.json",
+  "id": "svrnty",
+  "name": "Svrnty Team Setup",
+  "slug": "svrnty",
+  "version": "1.0.0",
+  "description": "Multi-agent orchestration via Overstory + Beads task tracking + Mulch knowledge persistence",
+  "long_description": "Svrnty Team Setup converts Claude Code into a multi-agent orchestration platform. It uses Overstory for agent spawning into isolated git worktrees, Beads for git-backed issue/task tracking, and Mulch for structured knowledge persistence across sessions. Native Claude Code Task and TeamCreate tools are blocked by hooks — all agent work flows through Overstory for proper worktree isolation and dashboard visibility.",
+  "author": {
+    "name": "Jean-Philippe Brulé",
+    "url": "https://github.com/jpbrule-del"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jpbrule-del/svrnty-team-setup"
+  },
+  "homepage": "https://github.com/jpbrule-del/svrnty-team-setup",
+  "documentation": "https://github.com/jpbrule-del/svrnty-team-setup#readme",
+  "bugs": "https://github.com/jpbrule-del/svrnty-team-setup/issues",
+  "license": "MIT",
+  "keywords": [
+    "orchestration",
+    "overstory",
+    "beads",
+    "mulch",
+    "multi-agent",
+    "worktree",
+    "svrnty",
+    "agent-spawning",
+    "task-tracking",
+    "knowledge-persistence"
+  ],
+  "categories": [
+    "automation",
+    "development-tools",
+    "ai-enhancement"
+  ],
+  "platform": {
+    "min_claude_code_version": "1.0.0",
+    "supported_platforms": ["darwin", "linux"],
+    "supported_architectures": ["x64", "arm64"]
+  },
+  "dependencies": {
+    "required": [
+      {
+        "name": "git",
+        "version": ">=2.0.0",
+        "description": "Version control and worktree management"
+      },
+      {
+        "name": "node",
+        "version": ">=18.0.0",
+        "description": "Node.js runtime"
+      },
+      {
+        "name": "tmux",
+        "version": ">=3.0",
+        "description": "Terminal multiplexer for agent sessions"
+      },
+      {
+        "name": "jq",
+        "version": ">=1.6",
+        "description": "JSON processor for hook scripts"
+      }
+    ],
+    "optional": [
+      {
+        "name": "bun",
+        "description": "JavaScript runtime for Overstory (auto-installed by setup.sh)"
+      }
+    ]
+  },
+  "features": [
+    {
+      "title": "Overstory Agent Orchestration",
+      "description": "Spawn agents into isolated git worktrees with overstory sling, monitor via live TUI dashboard",
+      "icon": "🌳"
+    },
+    {
+      "title": "Beads Task Tracking",
+      "description": "Git-backed issue/task tracking with dependencies, priorities, and agent assignment",
+      "icon": "📿"
+    },
+    {
+      "title": "Mulch Knowledge Persistence",
+      "description": "Structured expertise recording and retrieval across sessions and agents",
+      "icon": "🌱"
+    },
+    {
+      "title": "4-Tier Merge Protocol",
+      "description": "Fast-forward, auto-merge, AI-assisted, and reimagine merge strategies",
+      "icon": "🔀"
+    },
+    {
+      "title": "Agent Mail System",
+      "description": "SQLite-backed inter-agent messaging with types, priorities, and payloads",
+      "icon": "📬"
+    },
+    {
+      "title": "Hook System",
+      "description": "9 hooks across 8 events: block native agents, enforce worktree boundaries, auto-sync on stop",
+      "icon": "🪝"
+    }
+  ],
+  "commands": {
+    "count": 16,
+    "list": [
+      "init",
+      "status",
+      "teardown",
+      "sling",
+      "mail",
+      "merge",
+      "dashboard",
+      "doctor",
+      "bd-create",
+      "bd-list",
+      "bd-update",
+      "bd-ready",
+      "mulch-prime",
+      "mulch-record",
+      "mulch-search"
+    ]
+  },
+  "stats": {
+    "downloads": 0,
+    "stars": 0,
+    "rating": 0.0,
+    "reviews": 0
+  },
+  "status": "stable",
+  "verified": true,
+  "featured": true,
+  "added_at": "2026-02-18T00:00:00Z",
+  "updated_at": "2026-02-18T00:00:00Z"
+}
