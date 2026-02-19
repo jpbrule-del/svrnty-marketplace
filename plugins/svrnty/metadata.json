@@ -103,23 +103,11 @@
     }
   ],
   "commands": {
-    "count": 16,
+    "count": 3,
     "list": [
       "init",
-      "status",
-      "teardown",
-      "sling",
-      "mail",
-      "merge",
-      "dashboard",
       "doctor",
-      "bd-create",
-      "bd-list",
-      "bd-update",
-      "bd-ready",
-      "mulch-prime",
-      "mulch-record",
-      "mulch-search"
+      "update"
     ]
   },
   "stats": {
