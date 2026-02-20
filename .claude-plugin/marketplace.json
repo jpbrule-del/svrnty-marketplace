@@ -24,7 +24,7 @@
       }
     },
     {
-      "name": "svrnty",
+      "name": "svrnty-team-setup",
       "source": {
         "source": "github",
         "repo": "jpbrule-del/svrnty-team-setup"

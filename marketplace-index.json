@@ -38,12 +38,12 @@
       "updated_at": "2026-01-11T00:00:00Z"
     },
     {
-      "id": "svrnty",
+      "id": "svrnty-team-setup",
       "name": "Svrnty Team Setup",
-      "slug": "svrnty",
+      "slug": "svrnty-team-setup",
       "author": "Jean-Philippe Brulé",
       "repository": "https://github.com/jpbrule-del/svrnty-team-setup",
-      "marketplace_entry": "./plugins/svrnty/metadata.json",
+      "marketplace_entry": "./plugins/svrnty-team-setup/metadata.json",
       "version": "2.0.0",
       "min_claude_code_version": "1.0.0",
       "description": "Multi-agent orchestration via Overstory + Beads task tracking + Mulch knowledge persistence",
